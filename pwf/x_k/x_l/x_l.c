@@ -3,10 +3,12 @@
 #include "32.h"
 #include "65.h"
 #include "66.h"
+#include "73.h"
 #include "75.h"
 #include "78.h"
 #include "79.h"
 #include "82.h"
+#include "83.h"
 #include "84.h"
 #include "85.h"
 #include "89.h"
@@ -91,7 +93,7 @@ t a[b] = {
 	0x0,
 	0x0,
 	0x0,
-	0x0,
+	X_L_73,
 	0x0,
 	X_L_75,
 	0x0,
@@ -101,7 +103,7 @@ t a[b] = {
 	0x0,
 	0x0,
 	X_L_82,
-	0x0,
+	X_L_83,
 	X_L_84,
 	X_L_85,
 	0x0,
