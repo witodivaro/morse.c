@@ -2,7 +2,8 @@
 
 #define t int
 
-#define pk(a) _delay_ms(a)
+#define pk1(a) _delay_ms(a)
+#define pk2(a, b) case a: pk1(b); break;
 
 #define psk x_d_psk
 
@@ -11,13 +12,14 @@ psk(
 	t a
 ) {
 	switch (a) {
-	case 0: pk(1); break;
-	case 1: pk(1000); break;
-	case 3: pk(3000); break;
-	case 7: pk(7000); break;
+	pk2(0, 1)
+	pk2(1, 1000)
+	pk2(3, 3000)
+	pk2(7, 7000)
 	}
 };
 
 #undef t
-#undef pk
+#undef pk1
+#undef pk2
 #undef psk

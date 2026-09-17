@@ -3,7 +3,7 @@
 #define pk1() x_f++
 
 #define t bool
-#define pk2() x_f_tmrf_pbrk1
+#define pk2() x_f_tmrf_pbrk1()
 
 #define pk3() x_f--
 

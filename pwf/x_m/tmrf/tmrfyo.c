@@ -2,7 +2,7 @@
 
 #define t x_m_t
 #define a x_m_tmrfyo
-#define b "AA AA"
+#define b "A IS A"
 
 t a[] = b;
 
